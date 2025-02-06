@@ -39,3 +39,6 @@ except Exception as e:
 
 # 导出应用
 app = app 
+
+# 如果确实需要这些路由
+from app.routers import analysis, bilibili 

@@ -5,7 +5,7 @@ app = Flask(__name__,
            template_folder='templates')
 
 @app.route('/')
-def home():
+def index():
     return render_template('index.html')  # 渲染模板文件
 
 @app.errorhandler(500)

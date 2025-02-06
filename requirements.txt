@@ -11,4 +11,5 @@ typing-extensions==4.9.0
 python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
 mangum==0.17.0
-Flask==2.2.5 
+Flask==2.2.5
+Werkzeug==2.2.3 
